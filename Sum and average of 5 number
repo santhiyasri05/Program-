@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+    int a=45,b=23,c=55,d=23,e=43;
+    int sum;
+    float average;
+    sum=a+b+c+d+e;
+    average=sum/5.0;
+    printf("Sum of the 5 number is : %d\n",sum);
+    printf("Average of the 5 number is : %.1f\n",average);
+    return 0;
+}
